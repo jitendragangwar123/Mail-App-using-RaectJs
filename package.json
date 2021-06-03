@@ -1,0 +1,28 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "faker": "^3.1.0",
+    "json-server": "^0.8.9",
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "axios": "~0.9.1",
+    "classnames": "^2.2.3",
+    "enzyme": "^2.6.0",
+    "expect": "^1.20.2",
+    "react": "~15.4.0",
+    "react-addons-css-transition-group": "^15.4.0",
+    "react-addons-test-utils": "^15.4.0",
+    "react-dom": "~15.4.0",
+    "react-router": "2.x"
+  },
+  "scripts": {
+    "start": "npm run json-server & react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "json-server": "json-server json-server.js --port=3001 --delay=500"
+  }
+}
